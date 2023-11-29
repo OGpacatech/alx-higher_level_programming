@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-def magic_calculation(a, b, c):
-    if a < b:
-        return (c)
-    if c > b:
-        return (a + b)
-    return (a*b - c)
+def islower(c):
+    if ord(c) >= 97 and ord(c) <= 122:
+        return True
+    else:
+        return False
